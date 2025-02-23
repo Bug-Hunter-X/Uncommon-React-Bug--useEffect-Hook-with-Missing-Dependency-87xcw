@@ -1,0 +1,3 @@
+# Uncommon React Bug: useEffect Hook with Missing Dependency
+
+This repository demonstrates a common yet easily overlooked bug in React applications involving the `useEffect` hook.  The issue arises when dependencies are improperly specified in the `useEffect` hook's second argument (the dependency array).  In this example, the `useEffect` hook runs on every render instead of only when necessary. This can cause unexpected behavior and performance issues.
